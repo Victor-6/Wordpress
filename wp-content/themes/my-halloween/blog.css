@@ -1,0 +1,176 @@
+r
+/*
+Theme Name: Halloween Theme
+Author: Martim Santos, Victor Fagot & Walid Didoune
+Description: Template WordPress d'Halloween
+Version: 1.0
+Tags: halloween epitech
+*/
+
+@font-face {
+	font-family: "Halloween Too";
+	src: url("./bootstrap/css/fonts/Halloween.ttf");
+  }
+  .header {
+	background: black;
+  }
+  
+  #navigation-principale li {
+	position: relative;
+	display: inline-block;
+	padding: 10px;
+	font-weight: 500;
+  }
+  #navigation-principale li a {
+	color: orange;
+  }
+  
+  .blog-footer {
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	font-family: "Arial", cursive, sans-serif;
+  }
+  
+  .widget-content {
+	text-align: center;
+  }
+  
+  body {
+	background-image: url(jack.jpg);
+	background-size: cover;
+  }
+  
+  .blog-post-title {
+	color: white;
+	font-family: "Arial", cursive, sans-serif;
+	font-size: 15px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	font-weight: 1000;
+	text-decoration: rgb(68, 68, 68);
+	font-style: normal;
+	font-variant: normal;
+  }
+  
+  .button_un {
+	text-decoration: none;
+	color: white;
+	font-family: "halloween Too", cursive, sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	box-shadow: inset #ffffff 0px 5px 8px -1px, #aabd18 1px 3px 2px;
+	-moz-box-shadow: inset #ffffff 0px 5px 8px -1px, #aabd18 1px 3px 2px;
+	-webkit-box-shadow: inset #ffffff 0px 5px 8px -1px, #aabd18 1px 3px 2px;
+	background: #eb8517;
+	background: -o-linear-gradient(90deg, #eb8517, #331b10);
+	background: -moz-linear-gradient(center top, #eb8517 5%, #331b10 100%);
+	background: -webkit-gradient(
+	  linear,
+	  left top,
+	  left bottom,
+	  color-stop(0.05, #eb8517),
+	  color-stop(1, #331b10)
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eb8517', endColorstr='#331b10');
+	background: -webkit-linear-gradient(#eb8517, #331b10);
+	background: -ms-linear-gradient(#eb8517, #331b10);
+	background: linear-gradient(#eb8517, #331b10);
+	line-height: 50px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	width: 400px;
+	border-color: #050200;
+	border-width: 0px;
+	border-style: solid;
+  }
+  
+  .button_un:active {
+	box-shadow: inset #ffffff 0px 5px 8px -1px, #aabd18 1px 0 2px;
+	-moz-box-shadow: inset #ffffff 0px 5px 8px -1px, #aabd18 1px 0 2px;
+	-webkit-box-shadow: inset #ffffff 0px 5px 8px -1px, #aabd18 1px 0 2px;
+	position: relative;
+	top: 3px;
+  }
+  
+  .button_un:hover {
+	background: #331b10;
+	background: -o-linear-gradient(90deg, #331b10, #eb8517);
+	background: -moz-linear-gradient(center top, #331b10 5%, #eb8517 100%);
+	background: -webkit-gradient(
+	  linear,
+	  left top,
+	  left bottom,
+	  color-stop(0.05, #331b10),
+	  color-stop(1, #eb8517)
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#331b10', endColorstr='#eb8517');
+	background: -webkit-linear-gradient(#331b10, #eb8517);
+	background: -ms-linear-gradient(#331b10, #eb8517);
+	background: linear-gradient(#331b10, #eb8517);
+  }
+  
+  .button_deux {
+	text-decoration: none;
+	color: white;
+	font-family: "Halloween Too", cursive, sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	box-shadow: inset #ffffff 0px 5px 8px -1px, #aabd18 1px 3px 2px;
+	-moz-box-shadow: inset #ffffff 0px 5px 8px -1px, #aabd18 1px 3px 2px;
+	-webkit-box-shadow: inset #ffffff 0px 5px 8px -1px, #aabd18 1px 3px 2px;
+	background: #eb8517;
+	background: -o-linear-gradient(90deg, #eb8517, #331b10);
+	background: -moz-linear-gradient(center top, #eb8517 5%, #331b10 100%);
+	background: -webkit-gradient(
+	  linear,
+	  left top,
+	  left bottom,
+	  color-stop(0.05, #eb8517),
+	  color-stop(1, #331b10)
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eb8517', endColorstr='#331b10');
+	background: -webkit-linear-gradient(#eb8517, #331b10);
+	background: -ms-linear-gradient(#eb8517, #331b10);
+	background: linear-gradient(#eb8517, #331b10);
+	line-height: 50px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	width: 400px;
+	border-color: #050200;
+	border-width: 0px;
+	border-style: solid;
+  }
+  
+  .button_deux:active {
+	box-shadow: inset #ffffff 0px 5px 8px -1px, #aabd18 1px 0 2px;
+	-moz-box-shadow: inset #ffffff 0px 5px 8px -1px, #aabd18 1px 0 2px;
+	-webkit-box-shadow: inset #ffffff 0px 5px 8px -1px, #aabd18 1px 0 2px;
+	position: relative;
+	top: 3px;
+  }
+  
+  .button_deux:hover {
+	background: #331b10;
+	background: -o-linear-gradient(90deg, #331b10, #eb8517);
+	background: -moz-linear-gradient(center top, #331b10 5%, #eb8517 100%);
+	background: -webkit-gradient(
+	  linear,
+	  left top,
+	  left bottom,
+	  color-stop(0.05, #331b10),
+	  color-stop(1, #eb8517)
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#331b10', endColorstr='#eb8517');
+	background: -webkit-linear-gradient(#331b10, #eb8517);
+	background: -ms-linear-gradient(#331b10, #eb8517);
+	background: linear-gradient(#331b10, #eb8517);
+  }
